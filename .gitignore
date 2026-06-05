@@ -1,0 +1,40 @@
+# Local runtime
+_runtime/
+models/
+outputs/*
+!outputs/.gitkeep
+samples/*.wav
+samples/*.mp3
+samples/*.flac
+samples/*.ogg
+samples/*.m4a
+samples/*.aac
+samples/*.zip
+
+# Local app state
+data/*.json
+data/logs/*
+!data/logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+
+# Windows / editor
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Large generated assets
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.ckpt
